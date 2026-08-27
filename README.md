@@ -21,9 +21,26 @@ Projeto prático para aprendizado de automação de testes Web utilizando Ruby, 
 - validação da mensagem de boas-vindas;
 - abertura e encerramento automático do navegador.
 
+## Cenários implementados
+
+### Página inicial
+
+- Acesso à página inicial;
+- validação da mensagem de boas-vindas;
+- abertura e encerramento automático do navegador.
+
+### Login
+
+- Acesso à página de login;
+- preenchimento de e-mail e senha;
+- tentativa de login com credenciais inválidas;
+- validação da mensagem de erro;
+- Page Object Model com a classe `LoginPage`.
+
 ## Instalação
 
 Instale as dependências:
 
 ```bash
 bundle install
+
