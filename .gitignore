@@ -1,0 +1,8 @@
+.bundle/
+.ruby-lsp/
+vendor/bundle/
+coverage/
+screenshots/
+tmp/
+log/
+.env
